@@ -22,7 +22,7 @@ public class XmlRunner {
 		//testNG.addListener(new RetryListener());
 		testNG.setOutputDirectory(TestNgXml.reportFolder);
 		
-		testNG.addListener(new ExtentTestNGIReporterListener(testNG.getOutputDirectory()));
+		testNG.addListener(new ExtentTestNGIReporterListener());
 		//testNG.addListener(new OSFilter());
 		//testNG.addListener(new IProgressTracker());
 		//testNG.setThreadCount(2);

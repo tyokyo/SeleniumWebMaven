@@ -8,28 +8,20 @@ import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
 import org.testng.*;
 import org.testng.xml.XmlSuite;
-
-import util.ReportUtil;
-
 import java.io.File;
 import java.util.*;
 
 public class ExtentTestNGIReporterListener implements IReporter {
-	public ExtentTestNGIReporterListener(String output_folder_dir) {
-		super();
-		this.output_folder_dir = output_folder_dir;
-	}
-
 	//生成的路径以及文件名
 	//private static final String OUTPUT_FOLDER = "ext-output/";
 	private static final String FILE_NAME = "indexet.html";
 
 	private ExtentReports extent;
-	private String output_folder_dir;
+	private String output_folder_dir="test-output/html";
 
+	@Override
 	public void generateReport(List<XmlSuite>  xmlSuites, List<ISuite> suites, String outputDirectory) {
 		init();
 		boolean createSuiteNode = false;
@@ -135,8 +127,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
 
 		System.out.println(this.output_folder_dir + FILE_NAME);
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(this.output_folder_dir +File.separator+ FILE_NAME);
-		htmlReporter.config().setDocumentTitle(ReportUtil.getReportName());
-		htmlReporter.config().setReportName(ReportUtil.getReportName());
+		htmlReporter.config().setDocumentTitle("自动化测试报告");
+		htmlReporter.config().setReportName("自动化测试报告");
 		htmlReporter.config().setChartVisibilityOnOpen(true);
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		htmlReporter.config().setTheme(Theme.STANDARD);
@@ -181,6 +173,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
 		if (tests.size() > 0) {
 			//调整用例排序，按时间排序
 			Set<ITestResult> treeSet = new TreeSet<ITestResult>(new Comparator<ITestResult>() {
+				@Override
 				public int compare(ITestResult o1, ITestResult o2) {
 					return o1.getStartMillis()<o2.getStartMillis()?-1:1;
 				}

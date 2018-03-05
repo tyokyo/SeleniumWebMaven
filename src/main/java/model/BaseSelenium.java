@@ -27,7 +27,7 @@ import org.apache.log4j.PropertyConfigurator;
  *  
  */
 public class BaseSelenium {
-	private static  WebDriver driver;
+	public static  WebDriver driver;
 	private static  ParameterBean  bean;
 	public static ParameterBean getBean() {
 		return bean;

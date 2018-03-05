@@ -1,5 +1,7 @@
 package model;
 
+import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -10,15 +12,19 @@ import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.imageio.ImageIO;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.internal.WrapsDriver;
 import org.openqa.selenium.os.WindowsUtils;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -750,6 +756,35 @@ public class VP  extends BaseSelenium{
 				file.delete();
 			}
 		}
+	}
+	//页面元素截图
+	public static File captureElement(WebElement element,String elementFileName){
+		WrapsDriver wrapsDriver = (WrapsDriver) element;
+		// 截图整个页面
+		File screen = ((TakesScreenshot) wrapsDriver.getWrappedDriver()).getScreenshotAs(OutputType.FILE);
+		BufferedImage img = null;
+		try {
+			img = ImageIO.read(screen);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// 获得元素的高度和宽度
+		int width = element.getSize().getWidth();
+		int height = element.getSize().getHeight();
+		// 创建一个矩形使面上面的高度，和宽度
+		Rectangle rect = new Rectangle(width, height);
+		// 得到元素的坐标
+		Point p = element.getLocation();
+		BufferedImage dest = img.getSubimage(p.getX(),p.getY(),rect.width,rect.height);
+		//存为png格式
+		try {
+			ImageIO.write(dest, "png", new File(elementFileName));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return screen;
 	}
 
 }
