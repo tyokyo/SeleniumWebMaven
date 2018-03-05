@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[[2018-03-05 10:56:01] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:01] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:07] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:07] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:13] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:16] [VP.clickElement] click by - By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:16] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:20] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:20] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:20] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:25] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:25] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:31] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:32] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789a<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:33] [VP.getElement] find element by=By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:34] [VP.clickElement] click by - By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:34] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:44] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:44] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:44] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:49] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:49] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:54] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000a<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:56] [VP.clickElement] click by - By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:56:56] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:06] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:06] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:07] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:12] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:13] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:20] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: username   keys=13547946743<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:23] [VP.clickElement] click by - By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:23] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:25] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:35] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:36] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:40] [BS.launchUrl] start browser-CHROME<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:40] [BS.initChromeDriver] init chrome browser<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:45] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:47] [VP.clickElement] click by - By.id: login-btn<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:47] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:51] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2018-03-05 10:57:51] [BS.quiteSelenium] quit  browser<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="1509347373458" duration-ms="115687" started-at="2018-03-05T02:56:00Z" finished-at="2018-03-05T02:57:56Z">
+    <groups>
+    </groups>
+    <test name="AccountCase" duration-ms="115687" started-at="2018-03-05T02:56:00Z" finished-at="2018-03-05T02:57:56Z">
+      <class name="cn.testcase.AccountCase">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="BeforeMethod" is-config="true" duration-ms="6514" started-at="2018-03-05T10:56:00Z" finished-at="2018-03-05T10:56:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:01] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:01] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testLoginEmail()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="testLoginEmail" duration-ms="13084" started-at="2018-03-05T10:56:07Z" finished-at="2018-03-05T10:56:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:07] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:07] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:13] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:16] [VP.clickElement] click by - By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:16] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:20] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginEmail -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="BeforeMethod" is-config="true" duration-ms="4950" started-at="2018-03-05T10:56:20Z" finished-at="2018-03-05T10:56:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:20] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:20] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testLoginErrorPassword()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="testLoginErrorPassword" duration-ms="18705" started-at="2018-03-05T10:56:25Z" finished-at="2018-03-05T10:56:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:25] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:25] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:31] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:32] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789a<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:33] [VP.getElement] find element by=By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:34] [VP.clickElement] click by - By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:34] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:44] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginErrorPassword -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="BeforeMethod" is-config="true" duration-ms="4950" started-at="2018-03-05T10:56:44Z" finished-at="2018-03-05T10:56:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:44] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:44] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testLoginErrorSioeyeId()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="testLoginErrorSioeyeId" duration-ms="17669" started-at="2018-03-05T10:56:49Z" finished-at="2018-03-05T10:57:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:56:49] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:49] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:54] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000a<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:56] [VP.clickElement] click by - By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:56:56] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:06] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginErrorSioeyeId -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="BeforeMethod" is-config="true" duration-ms="6102" started-at="2018-03-05T10:57:06Z" finished-at="2018-03-05T10:57:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:57:06] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:07] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testLoginPhone()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="testLoginPhone" duration-ms="22832" started-at="2018-03-05T10:57:12Z" finished-at="2018-03-05T10:57:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:57:12] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:13] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:20] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: username   keys=13547946743<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:23] [VP.clickElement] click by - By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:23] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:25] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginPhone -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="BeforeMethod" is-config="true" duration-ms="4717" started-at="2018-03-05T10:57:35Z" finished-at="2018-03-05T10:57:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:57:35] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:36] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testLoginSuccessBySioeyeId()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="testLoginSuccessBySioeyeId" duration-ms="11060" started-at="2018-03-05T10:57:40Z" finished-at="2018-03-05T10:57:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:57:40] [BS.launchUrl] start browser-CHROME<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:40] [BS.initChromeDriver] init chrome browser<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:45] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:47] [VP.clickElement] click by - By.id: login-btn<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:47] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2018-03-05 10:57:51] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessBySioeyeId -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.testcase.AccountCase@7e0b0338]" name="afterTest" is-config="true" duration-ms="5081" started-at="2018-03-05T10:57:51Z" finished-at="2018-03-05T10:57:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[2018-03-05 10:57:51] [BS.quiteSelenium] quit  browser<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.testcase.AccountCase -->
+    </test> <!-- AccountCase -->
+  </suite> <!-- 1509347373458 -->
+</testng-results>

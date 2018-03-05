@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="1509347373530" parallel="classes" thread-count="3"><parameter name="browser" value="Chrome" /><parameter name="username" value="tyokyo@126.com" /><parameter name="password" value="123456789" /><test verbose="2" preserve-order="true" name="NotificationsCase"><classes><class name="cn.testcase.NotificationsCase" /></classes></test></suite>

@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  AccountCase</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AccountCase</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 05 10:56:00 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>115 seconds (115687 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cn.testcase.AccountCase.testLoginEmail()'><b>testLoginEmail</b><br>Test class: cn.testcase.AccountCase<br/>
+<a href="#Output-403295657" onClick='toggleBox("Output-403295657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-403295657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-403295657">
+[2018-03-05 10:56:07] [BS.launchUrl] start browser-CHROME<br><br/>
+[2018-03-05 10:56:07] [BS.initChromeDriver] init chrome browser<br><br/>
+[2018-03-05 10:56:13] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:15] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com<br><br/>
+[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: username<br><br/>
+[2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br><br/>
+[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: password<br><br/>
+[2018-03-05 10:56:15] [VP.getElement] find element by=By.id: login-btn<br><br/>
+[2018-03-05 10:56:16] [VP.clickElement] click by - By.id: login-btn<br><br/>
+[2018-03-05 10:56:16] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br><br/>
+[2018-03-05 10:56:20] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>cn.testcase.AccountCase@7e0b0338</td></tr>
+<tr>
+<td title='cn.testcase.AccountCase.testLoginErrorPassword()'><b>testLoginErrorPassword</b><br>Test class: cn.testcase.AccountCase<br/>
+<a href="#Output-1765979796" onClick='toggleBox("Output-1765979796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1765979796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1765979796">
+[2018-03-05 10:56:25] [BS.launchUrl] start browser-CHROME<br><br/>
+[2018-03-05 10:56:25] [BS.initChromeDriver] init chrome browser<br><br/>
+[2018-03-05 10:56:31] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:32] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br><br/>
+[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: username<br><br/>
+[2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789a<br><br/>
+[2018-03-05 10:56:32] [VP.getElement] find element by=By.id: password<br><br/>
+[2018-03-05 10:56:33] [VP.getElement] find element by=By.id: login-btn<br><br/>
+[2018-03-05 10:56:34] [VP.clickElement] click by - By.id: login-btn<br><br/>
+[2018-03-05 10:56:34] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br><br/>
+[2018-03-05 10:56:44] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br><br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>cn.testcase.AccountCase@7e0b0338</td></tr>
+<tr>
+<td title='cn.testcase.AccountCase.testLoginErrorSioeyeId()'><b>testLoginErrorSioeyeId</b><br>Test class: cn.testcase.AccountCase<br/>
+<a href="#Output-1049453107" onClick='toggleBox("Output-1049453107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1049453107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1049453107">
+[2018-03-05 10:56:49] [BS.launchUrl] start browser-CHROME<br><br/>
+[2018-03-05 10:56:49] [BS.initChromeDriver] init chrome browser<br><br/>
+[2018-03-05 10:56:54] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:55] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000a<br><br/>
+[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: username<br><br/>
+[2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br><br/>
+[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: password<br><br/>
+[2018-03-05 10:56:55] [VP.getElement] find element by=By.id: login-btn<br><br/>
+[2018-03-05 10:56:56] [VP.clickElement] click by - By.id: login-btn<br><br/>
+[2018-03-05 10:56:56] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br><br/>
+[2018-03-05 10:57:06] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find <br><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>cn.testcase.AccountCase@7e0b0338</td></tr>
+<tr>
+<td title='cn.testcase.AccountCase.testLoginPhone()'><b>testLoginPhone</b><br>Test class: cn.testcase.AccountCase<br/>
+<a href="#Output-1693715672" onClick='toggleBox("Output-1693715672", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1693715672" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1693715672">
+[2018-03-05 10:57:12] [BS.launchUrl] start browser-CHROME<br><br/>
+[2018-03-05 10:57:13] [BS.initChromeDriver] init chrome browser<br><br/>
+[2018-03-05 10:57:20] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:57:22] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: username   keys=13547946743<br><br/>
+[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: username<br><br/>
+[2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br><br/>
+[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: password<br><br/>
+[2018-03-05 10:57:22] [VP.getElement] find element by=By.id: login-btn<br><br/>
+[2018-03-05 10:57:23] [VP.clickElement] click by - By.id: login-btn<br><br/>
+[2018-03-05 10:57:23] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br><br/>
+[2018-03-05 10:57:25] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>cn.testcase.AccountCase@7e0b0338</td></tr>
+<tr>
+<td title='cn.testcase.AccountCase.testLoginSuccessBySioeyeId()'><b>testLoginSuccessBySioeyeId</b><br>Test class: cn.testcase.AccountCase<br/>
+<a href="#Output-1253189934" onClick='toggleBox("Output-1253189934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1253189934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1253189934">
+[2018-03-05 10:57:40] [BS.launchUrl] start browser-CHROME<br><br/>
+[2018-03-05 10:57:40] [BS.initChromeDriver] init chrome browser<br><br/>
+[2018-03-05 10:57:45] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:57:46] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']<br><br/>
+[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000<br><br/>
+[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: username<br><br/>
+[2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789<br><br/>
+[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: password<br><br/>
+[2018-03-05 10:57:46] [VP.getElement] find element by=By.id: login-btn<br><br/>
+[2018-03-05 10:57:47] [VP.clickElement] click by - By.id: login-btn<br><br/>
+[2018-03-05 10:57:47] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds<br><br/>
+[2018-03-05 10:57:51] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success<br><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>cn.testcase.AccountCase@7e0b0338</td></tr>
+</table><p>
+</body>
+</html>

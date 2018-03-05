@@ -1,0 +1,119 @@
+2018-03-05 10:48:00,084 - util.Log -INFO - [2018-03-05 10:48:00] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:48:00,519 - util.Log -INFO - [2018-03-05 10:48:00] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:01,022 - util.Log -INFO - [2018-03-05 10:56:01] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:01,507 - util.Log -INFO - [2018-03-05 10:56:01] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:07,494 - util.Log -INFO - [2018-03-05 10:56:07] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:07,845 - util.Log -INFO - [2018-03-05 10:56:07] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:13,224 - util.Log -INFO - [2018-03-05 10:56:13] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:15,161 - util.Log -INFO - [2018-03-05 10:56:15] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:15,162 - util.Log -INFO - [2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com
+2018-03-05 10:56:15,163 - util.Log -INFO - [2018-03-05 10:56:15] [VP.getElement] find element by=By.id: username
+2018-03-05 10:56:15,373 - util.Log -INFO - [2018-03-05 10:56:15] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 10:56:15,373 - util.Log -INFO - [2018-03-05 10:56:15] [VP.getElement] find element by=By.id: password
+2018-03-05 10:56:15,473 - util.Log -INFO - [2018-03-05 10:56:15] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 10:56:16,633 - util.Log -INFO - [2018-03-05 10:56:16] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 10:56:16,633 - util.Log -INFO - [2018-03-05 10:56:16] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 10:56:20,571 - util.Log -INFO - [2018-03-05 10:56:20] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success
+2018-03-05 10:56:20,575 - util.Log -INFO - [2018-03-05 10:56:20] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:20,976 - util.Log -INFO - [2018-03-05 10:56:20] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:25,526 - util.Log -INFO - [2018-03-05 10:56:25] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:25,882 - util.Log -INFO - [2018-03-05 10:56:25] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:31,444 - util.Log -INFO - [2018-03-05 10:56:31] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:32,746 - util.Log -INFO - [2018-03-05 10:56:32] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:32,747 - util.Log -INFO - [2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000
+2018-03-05 10:56:32,747 - util.Log -INFO - [2018-03-05 10:56:32] [VP.getElement] find element by=By.id: username
+2018-03-05 10:56:32,912 - util.Log -INFO - [2018-03-05 10:56:32] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789a
+2018-03-05 10:56:32,913 - util.Log -INFO - [2018-03-05 10:56:32] [VP.getElement] find element by=By.id: password
+2018-03-05 10:56:33,045 - util.Log -INFO - [2018-03-05 10:56:33] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 10:56:34,160 - util.Log -INFO - [2018-03-05 10:56:34] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 10:56:34,161 - util.Log -INFO - [2018-03-05 10:56:34] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 10:56:44,209 - util.Log -INFO - [2018-03-05 10:56:44] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find 
+2018-03-05 10:56:44,232 - util.Log -INFO - [2018-03-05 10:56:44] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:44,482 - util.Log -INFO - [2018-03-05 10:56:44] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:49,183 - util.Log -INFO - [2018-03-05 10:56:49] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:56:49,433 - util.Log -INFO - [2018-03-05 10:56:49] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:56:54,089 - util.Log -INFO - [2018-03-05 10:56:54] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:55,386 - util.Log -INFO - [2018-03-05 10:56:55] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:56:55,386 - util.Log -INFO - [2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000a
+2018-03-05 10:56:55,387 - util.Log -INFO - [2018-03-05 10:56:55] [VP.getElement] find element by=By.id: username
+2018-03-05 10:56:55,538 - util.Log -INFO - [2018-03-05 10:56:55] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 10:56:55,538 - util.Log -INFO - [2018-03-05 10:56:55] [VP.getElement] find element by=By.id: password
+2018-03-05 10:56:55,628 - util.Log -INFO - [2018-03-05 10:56:55] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 10:56:56,785 - util.Log -INFO - [2018-03-05 10:56:56] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 10:56:56,786 - util.Log -INFO - [2018-03-05 10:56:56] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 10:57:06,818 - util.Log -INFO - [2018-03-05 10:57:06] [VP.waitUntilByFind] By.className: notifications waitUntilFind = Not find 
+2018-03-05 10:57:06,853 - util.Log -INFO - [2018-03-05 10:57:06] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:57:07,204 - util.Log -INFO - [2018-03-05 10:57:07] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:57:12,957 - util.Log -INFO - [2018-03-05 10:57:12] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:57:13,258 - util.Log -INFO - [2018-03-05 10:57:13] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:57:20,949 - util.Log -INFO - [2018-03-05 10:57:20] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:57:22,393 - util.Log -INFO - [2018-03-05 10:57:22] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:57:22,394 - util.Log -INFO - [2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: username   keys=13547946743
+2018-03-05 10:57:22,394 - util.Log -INFO - [2018-03-05 10:57:22] [VP.getElement] find element by=By.id: username
+2018-03-05 10:57:22,551 - util.Log -INFO - [2018-03-05 10:57:22] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 10:57:22,552 - util.Log -INFO - [2018-03-05 10:57:22] [VP.getElement] find element by=By.id: password
+2018-03-05 10:57:22,692 - util.Log -INFO - [2018-03-05 10:57:22] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 10:57:23,806 - util.Log -INFO - [2018-03-05 10:57:23] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 10:57:23,806 - util.Log -INFO - [2018-03-05 10:57:23] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 10:57:25,700 - util.Log -INFO - [2018-03-05 10:57:25] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success
+2018-03-05 10:57:35,788 - util.Log -INFO - [2018-03-05 10:57:35] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:57:36,039 - util.Log -INFO - [2018-03-05 10:57:36] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:57:40,505 - util.Log -INFO - [2018-03-05 10:57:40] [BS.launchUrl] start browser-CHROME
+2018-03-05 10:57:40,755 - util.Log -INFO - [2018-03-05 10:57:40] [BS.initChromeDriver] init chrome browser
+2018-03-05 10:57:45,235 - util.Log -INFO - [2018-03-05 10:57:45] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:57:46,538 - util.Log -INFO - [2018-03-05 10:57:46] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 10:57:46,538 - util.Log -INFO - [2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: username   keys=tyo000
+2018-03-05 10:57:46,539 - util.Log -INFO - [2018-03-05 10:57:46] [VP.getElement] find element by=By.id: username
+2018-03-05 10:57:46,648 - util.Log -INFO - [2018-03-05 10:57:46] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 10:57:46,649 - util.Log -INFO - [2018-03-05 10:57:46] [VP.getElement] find element by=By.id: password
+2018-03-05 10:57:46,772 - util.Log -INFO - [2018-03-05 10:57:46] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 10:57:47,925 - util.Log -INFO - [2018-03-05 10:57:47] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 10:57:47,925 - util.Log -INFO - [2018-03-05 10:57:47] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 10:57:51,562 - util.Log -INFO - [2018-03-05 10:57:51] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success
+2018-03-05 10:57:51,563 - util.Log -INFO - [2018-03-05 10:57:51] [BS.quiteSelenium] quit  browser
+2018-03-05 12:25:12,702 - util.Log -INFO - [2018-03-05 12:25:12] [BS.launchUrl] start browser-CHROME
+2018-03-05 12:25:12,985 - util.Log -INFO - [2018-03-05 12:25:12] [BS.initChromeDriver] init chrome browser
+2018-03-05 12:25:18,468 - util.Log -INFO - [2018-03-05 12:25:18] [BS.launchUrl] start browser-CHROME
+2018-03-05 12:25:18,769 - util.Log -INFO - [2018-03-05 12:25:18] [BS.initChromeDriver] init chrome browser
+2018-03-05 13:49:27,586 - util.Log -INFO - [2018-03-05 13:49:27] [BS.launchUrl] start browser-CHROME
+2018-03-05 13:49:28,366 - util.Log -INFO - [2018-03-05 13:49:28] [BS.initChromeDriver] init chrome browser
+2018-03-05 13:49:38,690 - util.Log -INFO - [2018-03-05 13:49:38] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 13:49:40,239 - util.Log -INFO - [2018-03-05 13:49:40] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 13:49:40,239 - util.Log -INFO - [2018-03-05 13:49:40] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com
+2018-03-05 13:49:40,240 - util.Log -INFO - [2018-03-05 13:49:40] [VP.getElement] find element by=By.id: username
+2018-03-05 13:49:40,518 - util.Log -INFO - [2018-03-05 13:49:40] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 13:49:40,518 - util.Log -INFO - [2018-03-05 13:49:40] [VP.getElement] find element by=By.id: password
+2018-03-05 13:49:40,609 - util.Log -INFO - [2018-03-05 13:49:40] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 13:49:41,743 - util.Log -INFO - [2018-03-05 13:49:41] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 13:49:41,744 - util.Log -INFO - [2018-03-05 13:49:41] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 13:49:43,858 - util.Log -INFO - [2018-03-05 13:49:43] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success
+2018-03-05 13:49:43,897 - util.Log -INFO - [2018-03-05 13:49:43] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar log-on']
+2018-03-05 13:49:45,163 - util.Log -INFO - [2018-03-05 13:49:45] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar log-on']
+2018-03-05 13:49:45,165 - util.Log -INFO - [2018-03-05 13:49:45] [VP.getElement] find element by=By.linkText: 设置
+2018-03-05 13:49:47,527 - util.Log -INFO - [2018-03-05 13:49:47] [VP.clickElement] click by - By.linkText: 设置
+2018-03-05 13:49:47,546 - util.Log -INFO - [2018-03-05 13:49:47] [VP.getElement] find element by=By.cssSelector: div.radius-box.me-tab>ul
+2018-03-05 13:49:47,706 - util.Log -INFO - [2018-03-05 13:49:47] [VP.getElement] find element by=By.cssSelector: .me-input>input
+2018-03-05 13:49:48,089 - util.Log -INFO - [2018-03-05 13:49:48] [VP.getElement] find element by=By.cssSelector: .me-input>input
+2018-03-05 13:51:04,226 - util.Log -INFO - [2018-03-05 13:51:04] [BS.launchUrl] start browser-CHROME
+2018-03-05 13:51:04,598 - util.Log -INFO - [2018-03-05 13:51:04] [BS.initChromeDriver] init chrome browser
+2018-03-05 13:51:10,345 - util.Log -INFO - [2018-03-05 13:51:10] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 14:02:27,964 - util.Log -INFO - [2018-03-05 14:02:27] [BS.launchUrl] start browser-CHROME
+2018-03-05 14:02:28,408 - util.Log -INFO - [2018-03-05 14:02:28] [BS.initChromeDriver] init chrome browser
+2018-03-05 14:02:35,350 - util.Log -INFO - [2018-03-05 14:02:35] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar']
+2018-03-05 14:02:36,610 - util.Log -INFO - [2018-03-05 14:02:36] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar']
+2018-03-05 14:02:36,611 - util.Log -INFO - [2018-03-05 14:02:36] [VP.sendKeys] sendKeys by=By.id: username   keys=tyokyo@126.com
+2018-03-05 14:02:36,612 - util.Log -INFO - [2018-03-05 14:02:36] [VP.getElement] find element by=By.id: username
+2018-03-05 14:02:36,757 - util.Log -INFO - [2018-03-05 14:02:36] [VP.sendKeys] sendKeys by=By.id: password   keys=123456789
+2018-03-05 14:02:36,757 - util.Log -INFO - [2018-03-05 14:02:36] [VP.getElement] find element by=By.id: password
+2018-03-05 14:02:36,844 - util.Log -INFO - [2018-03-05 14:02:36] [VP.getElement] find element by=By.id: login-btn
+2018-03-05 14:02:37,923 - util.Log -INFO - [2018-03-05 14:02:37] [VP.clickElement] click by - By.id: login-btn
+2018-03-05 14:02:37,925 - util.Log -INFO - [2018-03-05 14:02:37] [VP.waitUntilByFind] waitUntilFind  By.className: notifications in  10 seconds
+2018-03-05 14:02:40,183 - util.Log -INFO - [2018-03-05 14:02:40] [VP.waitUntilByFind] By.className: notifications  waitUntilFind = success
+2018-03-05 14:02:40,191 - util.Log -INFO - [2018-03-05 14:02:40] [VP.getElement] find element by=By.cssSelector: [class='btn-login avatar log-on']
+2018-03-05 14:02:41,259 - util.Log -INFO - [2018-03-05 14:02:41] [VP.clickElement] click by - By.cssSelector: [class='btn-login avatar log-on']
+2018-03-05 14:02:41,259 - util.Log -INFO - [2018-03-05 14:02:41] [VP.getElement] find element by=By.linkText: 设置
+2018-03-05 14:02:42,666 - util.Log -INFO - [2018-03-05 14:02:42] [VP.clickElement] click by - By.linkText: 设置
+2018-03-05 14:02:42,670 - util.Log -INFO - [2018-03-05 14:02:42] [VP.getElement] find element by=By.cssSelector: div.radius-box.me-tab>ul
+2018-03-05 14:02:42,776 - util.Log -INFO - [2018-03-05 14:02:42] [VP.getElement] find element by=By.cssSelector: .me-input>input
+2018-03-05 14:02:43,105 - util.Log -INFO - [2018-03-05 14:02:43] [VP.getElement] find element by=By.cssSelector: .me-input>input
+2018-03-05 14:02:53,231 - util.Log -INFO - [2018-03-05 14:02:53] [BS.quiteSelenium] quit  browser

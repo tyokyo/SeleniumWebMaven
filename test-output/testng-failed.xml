@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [1509347373458]" parallel="classes">
+  <parameter name="password" value="123456789"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="username" value="tyokyo@126.com"/>
+  <test name="AccountCase(failed)" parallel="classes">
+    <classes>
+      <class name="cn.testcase.AccountCase">
+        <methods>
+          <include name="testLoginErrorPassword"/>
+          <include name="testLoginPhone"/>
+          <include name="BeforeMethod"/>
+          <include name="testLoginSuccessBySioeyeId"/>
+          <include name="testLoginEmail"/>
+          <include name="testLoginErrorSioeyeId"/>
+        </methods>
+      </class> <!-- cn.testcase.AccountCase -->
+    </classes>
+  </test> <!-- AccountCase(failed) -->
+</suite> <!-- Failed suite [1509347373458] -->
