@@ -75,7 +75,9 @@ public class BaseSelenium {
 		bean.setPassword(password);
 	}
 	private static void initFireFoxDriver(String url){
-		VP.killProcess("firefox");
+		WindowsUtils.killByName("firefox.exe");
+		WindowsUtils.killByName("geckodriver.exe");
+		
 		Log.info("init firefox browser");
 		String driver_path = System.getProperty("user.dir")+"\\driver\\firefox\\64\\geckodriver.exe";
 		System.setProperty("webdriver.gecko.driver", driver_path);
@@ -171,7 +173,7 @@ public class BaseSelenium {
 			for (String h : handles) {
 				getDriver().switchTo().window(h).close();;
 			}
-			//driver.close();
+			driver.close();
 			driver.quit();
 			WindowsUtils.killByName("chromedriver.exe");
 			WindowsUtils.killByName("geckodriver.exe");
