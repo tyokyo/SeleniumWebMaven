@@ -76,6 +76,8 @@ public class VP  extends BaseSelenium{
 	public static WebElement getElement(By by){
 		Log.info(String.format("find element by=%s", by.toString()));
 		WebElement element = getDriver().findElement(by);
+		//元素截图
+		TakeScreen.takeElementScreen(element);
 		highlightElement(element);
 		return element;
 	}
@@ -776,6 +778,10 @@ public class VP  extends BaseSelenium{
 		Rectangle rect = new Rectangle(width, height);
 		// 得到元素的坐标
 		Point p = element.getLocation();
+		
+		System.out.println(p.getX()+"-"+p.getY());
+		System.out.println(width+"-"+height);
+		
 		BufferedImage dest = img.getSubimage(p.getX(),p.getY(),rect.width,rect.height);
 		//存为png格式
 		try {

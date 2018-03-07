@@ -8,8 +8,12 @@ import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
+import execute.TestNgXml;
+
 import org.testng.*;
 import org.testng.xml.XmlSuite;
+
 import java.io.File;
 import java.util.*;
 
@@ -19,7 +23,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
 	private static final String FILE_NAME = "indexet.html";
 
 	private ExtentReports extent;
-	private String output_folder_dir="test-output/html";
+	private String output_folder_dir=TestNgXml.htmlFolder;
 
 	@Override
 	public void generateReport(List<XmlSuite>  xmlSuites, List<ISuite> suites, String outputDirectory) {
