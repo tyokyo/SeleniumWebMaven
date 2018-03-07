@@ -9,7 +9,7 @@ import cn.pages.HomePage;
 public class MyAccountPage  extends VP{
 	//Sioeye喜爱直播设置页面_我的账号
 	//SioeyeID
-	static By  sioeyeid = By.cssSelector(".me-input>input");
+	static By  sioeyeid = By.cssSelector("div[class='radius-box me-content'] .me-input input[readonly]");
 	//绑定手机号
 	static By bind_phone = By.id("btn-bind-phone");
 	//绑定邮箱
@@ -31,6 +31,6 @@ public class MyAccountPage  extends VP{
 		NavToSetting.navToEditInfo("我的账号");
 	}
 	public static WebElement getSioeyeID(){
-		return getElement(sioeyeid);
+		return getElements(sioeyeid).get(0);
 	}
 }

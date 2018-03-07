@@ -38,6 +38,7 @@ public class MyAccountCase extends VP{
 		getDriver().navigate().refresh();
 		try {
 			MyAccountPage.getSioeyeID().sendKeys(getRandomString(5));
+			idEmt = MyAccountPage.getSioeyeID();
 			String actual = idEmt.getAttribute("value");
 			Assert.assertEquals(actual, expect,"disable for modify sioeyeid");
 		} catch (ElementNotVisibleException e) {

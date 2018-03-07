@@ -75,7 +75,15 @@ public class VP  extends BaseSelenium{
 	 */
 	public static WebElement getElement(By by){
 		Log.info(String.format("find element by=%s", by.toString()));
+		waitUntilByFind(by, 5);
 		WebElement element = getDriver().findElement(by);
+		if (element.isDisplayed()) {
+			Log.info("isDisplayed=true");
+		}else {
+			Log.info("isDisplayed=false");
+		}
+		//元素截图
+		TakeScreen.takeElementScreen(element);
 		highlightElement(element);
 		return element;
 	}
@@ -90,6 +98,7 @@ public class VP  extends BaseSelenium{
 	 */
 	public static List<WebElement> getElements(By by){
 		Log.info(String.format("find elements by=%s", by.toString()));
+		waitUntilByFind(by, 5);
 		List<WebElement> elements = getDriver().findElements(by);
 		return elements;
 	}
@@ -776,6 +785,10 @@ public class VP  extends BaseSelenium{
 		Rectangle rect = new Rectangle(width, height);
 		// 得到元素的坐标
 		Point p = element.getLocation();
+		
+		System.out.println(p.getX()+"-"+p.getY());
+		System.out.println(width+"-"+height);
+		
 		BufferedImage dest = img.getSubimage(p.getX(),p.getY(),rect.width,rect.height);
 		//存为png格式
 		try {

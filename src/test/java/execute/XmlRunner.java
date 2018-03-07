@@ -5,7 +5,9 @@ import java.util.List;
 import org.testng.TestNG;
 import org.uncommons.reportng.HTMLReporter;
 import org.uncommons.reportng.JUnitXMLReporter;
+
 import listener.ExtentTestNGIReporterListener;
+import listener.RetryListener;
 import listener.TestngListener;
 
 public class XmlRunner {
@@ -19,7 +21,7 @@ public class XmlRunner {
 		testNG.addListener(new HTMLReporter());
 		testNG.addListener(new JUnitXMLReporter());
 		testNG.addListener(new TestngListener());
-		//testNG.addListener(new RetryListener());
+		testNG.addListener(new RetryListener());
 		testNG.setOutputDirectory(TestNgXml.reportFolder);
 		
 		testNG.addListener(new ExtentTestNGIReporterListener());

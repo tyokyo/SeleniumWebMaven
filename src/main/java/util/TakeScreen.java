@@ -154,22 +154,26 @@ public class TakeScreen extends VP{
 		}
 	}
 	public static void takeElementScreen(WebElement element){
-		String folderString = getPrefix();
-		folderString=folderString.replaceAll("['.']", "/");
-		//File folder = new File("test-output/screenshot/"+folderString);
-		File folder = new File(TestNgXml.screenshotFolder+"/"+folderString);
-		if (!folder.exists()) {
-			folder.mkdirs();
+		try {
+			String folderString = getPrefix();
+			folderString=folderString.replaceAll("['.']", "/");
+			//File folder = new File("test-output/screenshot/"+folderString);
+			File folder = new File(TestNgXml.screenshotFolder+"/"+folderString);
+			if (!folder.exists()) {
+				folder.mkdirs();
+			}
+			SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
+			String mDateTime = formatter.format(new Date());
+			String screenName = mDateTime+".png";
+			String screenShotPath = folder.getAbsolutePath()+File.separator+screenName;
+			int width = element.getSize().getWidth();
+			int height = element.getSize().getHeight();
+			File screenShot = captureElement(element, screenShotPath);
+			Log.info(screenName);
+			Reporters.logInfo("<br><img src=../screenshot/" + folderString+"/"+screenName + "  onclick='window.open(\"../screenshot/"+folderString+"/"+screenName+")'"+"  height='"+height+"'  width='"+width+"'/>");
+		} catch (java.awt.image.RasterFormatException e) {
+			// TODO: handle exception
 		}
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
-		String mDateTime = formatter.format(new Date());
-		String screenName = mDateTime+".png";
-		String screenShotPath = folder.getAbsolutePath()+File.separator+screenName;
-		int width = element.getSize().getWidth();
-		int height = element.getSize().getHeight();
-		File screenShot = captureElement(element, screenShotPath);
-		Log.info(screenName);
-		Reporters.logInfo("<br><img src=../screenshot/" + folderString+"/"+screenName + "  onclick='window.open(\"../screenshot/"+folderString+"/"+screenName+")'"+"  height='"+height+"'  width='"+width+"'/>");
 	}
 	public static void takeDrawRect(String filePath,Color color) throws IOException{
 		File _file = new File(filePath); // 读入文件  
