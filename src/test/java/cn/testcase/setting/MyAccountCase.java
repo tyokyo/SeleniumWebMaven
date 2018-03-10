@@ -1,12 +1,16 @@
 package cn.testcase.setting;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import util.TakeScreen;
 import cn.pages.AccountPage;
 import cn.pages.setting.MyAccountPage;
 import model.VP;
@@ -32,6 +36,11 @@ public class MyAccountCase extends VP{
 	}
 	@Test
 	public void testSioeyeID_Disable(){
+		//屏幕截图
+		TakeScreen.takeScreenShotWithDraw("im zhangyan");
+		//日志输入
+		Reporter.log("this is a testng reporter");
+		
 		MyAccountPage.navToMyAccount();
 		WebElement idEmt = MyAccountPage.getSioeyeID();
 		String expect = idEmt.getAttribute("value");
