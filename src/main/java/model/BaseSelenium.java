@@ -129,7 +129,7 @@ public class BaseSelenium {
 		o.addArguments("download.default_directory","E:\\Goluk");
 		o.setBinary(System.getProperty("user.dir")+"\\browser\\chrome\\chrome.exe");
 		//初始化一个chrome浏览器实例，实例名称叫driver    
-		driver = new ChromeDriver(o);
+		driver = new ChromeDriver();
 		//String URL = Property.getValueByKey("properties/config.properties", "URL");
 		startTestAddress(url);
 	}
